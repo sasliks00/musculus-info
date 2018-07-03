@@ -1,0 +1,75 @@
+body {
+  background: rgb(51, 51, 51);
+  color: #fff; }
+.navbar {
+  border-bottom: #ff000083 3px solid;
+  opacity: 0.9;
+} 
+#footer{
+  border-top: #ff000083 3px solid;
+  opacity: 1
+}
+#home-section {
+  background: url("../img/musculus gym liepaja.jpg") no-repeat;
+  min-height: 890px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size:16px;
+  width: 100%  }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 890px;
+     }
+  #home-section .home-inner {
+    padding-top: 150px; }
+#cenas{
+  color: #fff;
+  background: #333;
+  padding: 12px;
+  font-size: 16px; 
+  background-size: cover;
+  background-attachment: fixed;}
+  #cenas {
+    padding-top: 50px;
+  }
+#kontakti {
+  background: url("../img/musculus fitness kontakti.jpg") no-repeat;
+  min-height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  font-size: 16px; 
+   }
+  #kontakti .dark-overlay2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    min-height: 800px;
+    padding-top: 50px;
+  }
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: rgb(204, 0, 255);
+  color: white;
+}
